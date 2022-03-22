@@ -1488,7 +1488,7 @@ case 'jadibotwa':
 case 'carajadibot':
 if (!isRegist) return freply(mess.daftar)
 if (isBanned) return freply(mess.banned)
-freply(`*Jika ingin menjadi bot silahkan kunjungi channel YouTube Ramdani Official*\n*link* : https://youtube.com/channel/UCB157jomCne961WzYHpG4gg`)
+freply(`*Jika ingin menjadi bot silahkan chat wa owner pribadi*\n*link* : https://youtube.com/channel/IhzaInTheHouseRimexxx`)
 randommusic = fs.readFileSync(`./media/audio/${randomaudio}.mp3`)
 Ramdani.sendMessage(from, randommusic, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break
@@ -1560,22 +1560,7 @@ case 'tqtq':
 if (!isRegist) return freply(mess.daftar)
 if (isBanned) return freply(mess.banned)
 freply(`• *BIG THANKS TO*
-• RAMDANI OFFICIAL (ME)
-• ARUL (MY GURU)
-• MHANKBARBAR (MASTAH)
-• APRILIA
-• ZEEONE OFC
-• DIKA ARDNT
-• RIMURUBOTZ
-• KAHFZXZY
-• LEXXY OFFICIAL
-• HERMAN CHANNEL
-• ABIL BOT
-• KURR XD OFFICIAL
-• DIKA XD
-• SIEGRIN
-• KANNABOT
-• YANZ BOT`)
+ALLAH
 randomaudi = fs.readFileSync(`./media/audio/${randomaudio}.mp3`)
 Ramdani.sendMessage(from, randomaudi, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true}) 
 break
